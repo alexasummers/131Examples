@@ -6,10 +6,10 @@ using UnityEngine.Networking;
 
 public class NetworkService{
    //XML
-   //private const string xmlApi = "http://api.openweathermap.org/data/2.5/weather?q=Chicago,us&mode=xml&APPID=c786416c5c8473cebeddee63c3c461a0";
+   //private const string xmlApi = "http://api.openweathermap.org/data/2.5/weather?q=Chicago,us&mode=xml&APPID=<insert API key here>";
 
     //JSON -- slightly different URL (remove &mode=xml) Chicago, Tonopah, Ogden
-    private const string jsonApi = "http://api.openweathermap.org/data/2.5/weather?q=KansasCity,us&APPID=c786416c5c8473cebeddee63c3c461a0"; //Example: Cairo, Chicago
+    private const string jsonApi = "http://api.openweathermap.org/data/2.5/weather?q=KansasCity,us&APPID=<insert API key here>"; //Example: Cairo, Chicago
 
     //City map here: https://openweathermap.org/weathermap?basemap=map&cities=true&layer=temperature&lat=31.6908&lon=33.3984&zoom=5
 
