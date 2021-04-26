@@ -4,7 +4,7 @@ using UnityEngine;
 using System;
 
 public class NetworkService{
-//     private const string xmlApi = "http://api.openweathermap.org/data/2.5/weather?q=Chicago,us&mode=xml&APPID=c786416c5c8473cebeddee63c3c461a0";
+//     private const string xmlApi = "*insert API key here";
 
 //     private IEnumerator CallAPI(string url, Action<string> callback) {
 //         using (UnityWebRequest request = UnityWebRequest.Get(url)) {
