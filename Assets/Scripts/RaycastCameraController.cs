@@ -6,7 +6,7 @@ public class RaycastCameraController : MonoBehaviour
 {
     private Camera _camera;
 
-   [SerializeField] private float _mouseMovement; //[SerializedField] attribute used to show private variable in the inspector-- controls how fast we want to rotate
+    private float _mouseMovement = 200;
 
    private Transform parent; //reference to our parent object
 
